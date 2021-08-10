@@ -1,0 +1,45 @@
+#external {
+	color: yellow;
+}
+
+* {
+	font-family: verdana;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.language {
+	background-color: #aed19d;
+}
+
+li[target] {
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(157, 176, 209);
+	width: 90%;
+}
+
+img + ul {
+	list-style-type: none;
+}
+
+section img {
+	height: 150px;
+	width: 150px;
+	border-radius: 150px;
+}
+
+ul > li {
+	letter-spacing: 6px;
+}
+
+ul ~ p {
+	text-align: center;
+}
